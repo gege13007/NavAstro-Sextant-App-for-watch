@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listposit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0sp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal|center"
+            android:layout_marginTop="135sp"
+            android:gravity="center|center_horizontal"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/starlist"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="4sp"
+                android:background="@drawable/button_bg"
+                android:clickable="true"
+                android:dividerHeight="2sp"
+                android:focusable="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Spinner
+                android:id="@+id/modelist"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5sp"
+                android:background="@drawable/button_bg"
+                android:clickable="true"
+                android:dividerHeight="2sp"
+                android:focusable="true"
+                android:gravity="center_horizontal"
+                android:spinnerMode="dropdown"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/latitinp"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginTop="5sp"
+                android:text="Latit"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/longitinp"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginTop="5sp"
+                android:text="Longit"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/utinp"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginTop="5sp"
+                android:text="hh:mm ut"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/hsextantinp"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginTop="5sp"
+                android:text="He mes"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/hauteurminp"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginTop="5sp"
+                android:text="H metre"
+                android:textAllCaps="false"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/colliminp"
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:layout_marginTop="5sp"
+                android:text="Collim (min)"
+                android:textAllCaps="false"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/sunset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Rise/set"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/he_z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="h correct"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/suntxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="aHvo"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/intertxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Intercept"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/azimtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:text="Azimut"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/space"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
